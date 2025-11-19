@@ -62,21 +62,27 @@ This MERN stack blog application features:│   ├── public/             # 
 
 ### Production URLs│   ├── routes/             # API routes
 
-- **Frontend**: `[URL will be added after deployment]`│   ├── middleware/         # Custom middleware
+- **Frontend**: https://plp-mern-stack-development.github.io/deployment-and-devops-essentials-Princessglory/
+- **Backend API**: https://mern-blog-api-uwm7.onrender.com
+- **Health Check**: https://mern-blog-api-uwm7.onrender.com/api/health
 
-- **Backend API**: `[URL will be added after deployment]`│   ├── utils/              # Utility functions
+│   ├── middleware/         # Custom middleware
+
+### Deployment Status│   ├── utils/              # Utility functions
+
+- [x] MongoDB Atlas configured
+- [x] Backend deployed to Render
+- [x] Frontend deployed to GitHub Pages
+- [x] CI/CD pipeline set up
+- [x] Monitoring configured (Health check endpoint)
 
 │   ├── server.js           # Main server file
 
-### Deployment Status│   └── package.json        # Server dependencies
+│   └── package.json        # Server dependencies
 
-- [ ] MongoDB Atlas configured└── README.md               # Project documentation
+└── README.md               # Project documentation
 
-- [ ] Backend deployed to Render/Railway```
-
-- [ ] Frontend deployed to Vercel/Netlify
-
-- [ ] CI/CD pipeline set up## Getting Started
+```## Getting Started
 
 - [ ] Monitoring configured
 
